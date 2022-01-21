@@ -11,7 +11,7 @@ pipeline {
 				}
 				stage('TEST1') {
 					steps {
-						sh 'echo "fist test stage in Jenkinsfile"'
+						sh 'echo "first test stage in Jenkinsfile"'
 					}	
 				}
 				stage('TEST2') {
